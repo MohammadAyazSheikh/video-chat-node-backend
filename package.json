@@ -4,8 +4,16 @@
   "description": "this is video chat backend for rabtay app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "ayaz sheikh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "ngrok": "^4.3.0",
+    "nodemon": "^2.0.15",
+    "twilio": "^3.73.0"
+  }
 }
